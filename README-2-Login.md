@@ -25,7 +25,7 @@
 
 ## General Function
 
-- ContextWithLocator
+- ContextWithLocator: Service Locator Pattern
 
 ## Test
 
@@ -42,5 +42,9 @@
 
 ## Ref
 
-- [DAO, DTO 啥鬼？還有 GTO 嗎](https://justinhollly.medium.com/dao-dto-%E5%95%A5%E9%AC%BC-%E9%82%84%E6%9C%89-gto-%E5%97%8E-39a42f13768b)
-- [DTO、VO、BO、DAO、POJO 各種 Object](https://hackmd.io/@OceanChiu/HJBvCZcQ8)
+- DTO
+  - [DAO, DTO 啥鬼？還有 GTO 嗎](https://justinhollly.medium.com/dao-dto-%E5%95%A5%E9%AC%BC-%E9%82%84%E6%9C%89-gto-%E5%97%8E-39a42f13768b)
+  - [DTO、VO、BO、DAO、POJO 各種 Object](https://hackmd.io/@OceanChiu/HJBvCZcQ8)
+- Service Locator
+  - [C#/Unity 這不叫 Singleton，叫 Service Locator](https://www.douduck08.com/zh-tw/practicing-of-service-locator/)
+  - [Design Patterns for Unity Developers: Service Locator](https://medium.com/@taha.m.gokdemir/design-patterns-for-unity-developers-service-locator-124cd4628c43)
