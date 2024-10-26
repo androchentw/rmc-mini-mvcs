@@ -78,6 +78,8 @@
 
 ## Example 2 LoginMini
 
+<img src="img/2_LoginMini.jpg" width="600">
+
 ### MVCS
 
 * LoginWithMiniExample > LoginMini: SimpleMiniMvcs
