@@ -75,6 +75,8 @@ Path
   - `RefreshUI()`
   - Implement Unity methods: `Update() { if (Input.GetMouseButtonDown(0)) { OnAction.Invoke(); } }`
 - Service Locator of `MiniMvcs`
+  - 集中管理依賴，避免多處實例化 (同時亦運用 Singleton 以保證單一實例)。
+    - init 時向 ServiceLocator register Service. 後續 GetService 取得 instance
   - [C#/Unity - 這不叫 Singleton，叫 Service Locator - Practice of Service Locator](https://douduck08.wordpress.com/2017/11/05/practice-of-service-locator/)
   - [Simple service locator for your Unity project](https://medium.com/medialesson/simple-service-locator-for-your-unity-project-40e317aad307)
   - [Design Patterns for Unity Developers: Service Locator](https://medium.com/@taha.m.gokdemir/design-patterns-for-unity-developers-service-locator-124cd4628c43)
